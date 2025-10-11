@@ -68,7 +68,8 @@ export default function Page() {
                 if (!isAlive) return;
                 setError(e?.message ?? "Error desconocido");
             } finally {
-                if (!isAlive) return;
+                if (!isAlive)
+                    return;
                 setLoading(false);
             }
         })();
