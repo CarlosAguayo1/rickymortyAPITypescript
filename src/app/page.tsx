@@ -128,7 +128,6 @@ export default function Page() {
                                 src={detail.image}
                                 alt={detail.name}
                             />
-
                         </div>
                         <div className="p-8">
                             <button
